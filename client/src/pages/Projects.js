@@ -10,6 +10,7 @@ export default function Projects(){
             <div class="text">
                 <h2>JS Flashcard Game</h2>
                 <p>Simple flashcard game, 6x3 and 6x6 options</p>
+                <a href="https://flashcardsahong.netlify.app" target="_blank">Link to website</a>
                 <h3>Skills used</h3>
                 <li>HTML</li>
                 <li>JS</li>
@@ -36,6 +37,7 @@ export default function Projects(){
             <div class="text">
             <h2>Weather App</h2>
                 <p>Worked with an API and react to create basic and clean weather app</p>
+                <a href="https://ahongweather.netlify.app" target="_blank">Link to website</a>
                 <h3>Skills used</h3>
                 <li>React</li>
                 <li>HTML</li>
