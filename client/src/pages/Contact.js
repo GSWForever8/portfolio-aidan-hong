@@ -23,7 +23,7 @@ const Contact = () => {
   const sendEmail = event => {
     event.preventDefault();
     axios
-     .post('https://portfolio-aidan-hong-1.onrender.com', { ...state })
+     .post('https://portfolio-aidan-hong-1.onrender.com/send', { ...state })
      .then(response => {
        setResult(response.data);
        setState({ name: '', email: '', subject: '', message: '' });
