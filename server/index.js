@@ -12,7 +12,7 @@ app.use(express.static(buildPath));
 
 
 const corsOptions={
-  origin:'https://portfolio-aidan-hong-frontend.onrender.com/contact',
+  origin:'https://portfolio-aidan-hong-frontend.onrender.com',
   optionsSuccessStatus:200
 }
 app.use(cors(corsOptions))
