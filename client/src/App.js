@@ -11,9 +11,9 @@ function App() {
         <div class="nav">
           <ul>
             <li class="bar"><Link to="/">Home</Link></li>
-            <li class="bar"><Link to="/contact">Contact Me</Link></li>
             <li class="bar"><Link to="/about">About Me</Link></li>
             <li class="bar"><Link to="/projects">Projects</Link></li>
+            <li class="bar"><Link to="/contact">Contact Me</Link></li>
           </ul>
         </div>
         <div class="container">
