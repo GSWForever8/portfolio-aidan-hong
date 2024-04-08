@@ -39,6 +39,7 @@
 
 .content{
     background-color:white;
+    justify-content:center;
     align-items:center;
     display:grid;
     color:black;
