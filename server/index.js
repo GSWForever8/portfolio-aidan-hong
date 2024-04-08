@@ -18,9 +18,6 @@ const corsOptions={
 app.use(cors(corsOptions))
 
 app.post('/send', (req, res) => {
-  res.send({
-    message:"Sending, please be patient"
-  })
   try {
     const mailOptions = {
       from: req.body.email,
