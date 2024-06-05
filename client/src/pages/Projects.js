@@ -24,6 +24,7 @@ export default function Projects(){
             <div class="text">
                 <h2>CSVStudy</h2>
                 <p>Designed to help students study using CSV files</p>
+                <a href="https://github.com/GSWForever8/CSVStudy" target="_blank">Link to GitHub Repository</a>
                 <h3>Skills used</h3>
                 <li>Python</li>
                 <li>File handling</li>
