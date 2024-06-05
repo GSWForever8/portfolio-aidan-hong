@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import logo from './pages/logo.png';
 import { Link, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -27,6 +26,16 @@ function App() {
               <li className="nav-item">
                 <Link className="nav-link bar" to="/projects">Projects</Link>
               </li>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle bar" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Quick Links
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a className="dropdown-item bar" href="https://linkedin.com/in/aidanhong8">LinkedIn</a></li>
+                  <li><a className="dropdown-item bar" href="https://fencingtracker.com/p/100326448/Aidan-Hong">FencingTracker</a></li>
+                  
+                </ul>
+              </li>
               <li className="nav-item">
                 <Link className="nav-link bar" to="/contact">Contact Me</Link>
               </li>
@@ -45,8 +54,8 @@ function App() {
         </div>
       </div>
       <footer className="footer">
-          <p>Aidan Hong 2024</p>
-        </footer>
+        <p>Aidan Hong 2024</p>
+      </footer>
     </>
   );
 }
