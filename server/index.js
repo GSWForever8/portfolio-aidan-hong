@@ -12,7 +12,7 @@ app.use(express.static(buildPath));
 
 
 const corsOptions={
-  origin:'https://aidanhong.com',
+  origin:'https://www.aidanhong.com',
   optionsSuccessStatus:200
 }
 app.use(cors(corsOptions))
