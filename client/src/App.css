@@ -106,8 +106,12 @@
   outline:none;
   text-align:center;
 }
+.navbar-nav .nav-link {
+  color: lightgray;
+}
 .nav {
   background-color: black;
+  color:white;
   padding: 10px;
   text-align: center;
 }
