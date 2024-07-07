@@ -20,6 +20,8 @@ export default function About(){
             </ul>
             <h1>Awards</h1>
             <ul>
+                <li>FBLA NLC National Winner 5th Place Database Design and Applications 2024</li>
+                <li>USA Fencing All-Academic First Team 2023-24</li>
                 <li>CA FBLA SLC 4th Database Design and Applications 2024</li>
                 <li>USA Fencing National Championships Division III Men's Saber</li>
                 <li>CA FBLA ISLC 1st Computer Problem Solving 2024</li>
