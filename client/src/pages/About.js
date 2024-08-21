@@ -37,6 +37,10 @@ export default function About(){
                 <li>ACSL 2023 Finalist</li>
                 <li>ACSL 2022 Finalist</li>
             </ul>
+            <h1>Certifications</h1>
+            <ul>
+                <li>GFACT Certification from SANS</li>
+            </ul>
             <h1>Current Positions</h1>
             <ul>
                 <li>DBHS FBLA Co-VP of Competitive Events</li>
