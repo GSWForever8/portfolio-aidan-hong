@@ -1,6 +1,6 @@
 import headshot from "./Headshot.png";
 import { Link, Route, Routes } from "react-router-dom";
-import aboutimg from "./about-quick.png";
+import aboutimg from "./head.jpg";
 import projectsimg from "./projectsimg.jpeg";
 import contactimg from "./Apple_Mail-512.webp";
 export default function Home(){
