@@ -155,7 +155,7 @@
 
 .image {
   float: right;
-  width: 27%;
+  width: 27%; 
   padding: 7px;
   margin-top: 65px;
 }
@@ -197,7 +197,7 @@
 .image {
   float: center;
   height: 450px;
-  width: 300px;
+  width: auto;
   overflow: hidden;
 }
 

@@ -22,7 +22,7 @@ export default function Home(){
                 <p>Projects</p>
             </div>  
             <div class="quicksection">
-                <Link to="/contact"><img src={contactimg}></img></Link>
+                <Link to="/contact"><img class="image"src={contactimg}></img></Link>
                 <p>Contact Me!</p>
             </div>      
         </div>
