@@ -3,9 +3,9 @@ export default function About(){
         <div class="content">
             <h1>About Me</h1>
             <p>Name: Aidan Hong</p>
-            <p>Age:16</p>
+            <p>Age: 16</p>
             <p>School: Diamond Bar High School C/O 2026</p>
-            <p>Interests: Programming, engineering</p>
+            <p>Interests: Programming, engineering, fencing</p>
             <h1>Activities</h1>
             <ul>
                 <li>Fencing</li>
@@ -40,6 +40,7 @@ export default function About(){
             <h1>Certifications</h1>
             <ul>
                 <li>GFACT Certification from SANS</li>
+                <li>E24 Sabre Rating</li>
             </ul>
             <h1>Current Positions</h1>
             <ul>
