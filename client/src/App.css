@@ -229,6 +229,9 @@
 .small {
   width: 250px;
 }
+.medium{
+  width:350px;
+}
 
 .center {
   text-align: center;

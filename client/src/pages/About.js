@@ -1,11 +1,19 @@
+import medal from "./medal.jpeg";
 export default function About(){
     return (
         <div class="content">
-            <h1>About Me</h1>
-            <p>Name: Aidan Hong</p>
-            <p>Age: 16</p>
-            <p>School: Diamond Bar High School C/O 2026</p>
-            <p>Interests: Programming, engineering, fencing</p>
+            <div class="side">
+                <div>
+                <h1>About Me</h1>
+                <p>Name: Aidan Hong</p>
+                <p>Age: 16</p>
+                <p>School: Diamond Bar High School C/O 2026</p>
+                <p>Interests: Programming, engineering, fencing</p>
+            </div>
+            <div>
+                <img class="image"src={medal}></img>
+            </div>
+        </div>
             <h1>Activities</h1>
             <ul>
                 <li>Fencing</li>
@@ -17,9 +25,11 @@ export default function About(){
                 <li>Math Madness</li>
                 <li>Math Kangaroo</li>
                 <li>PicoCTF</li>
+                <li>National Cyber League</li>
             </ul>
-            <h1>Awards</h1>
+                <h1>Awards</h1>
             <ul>
+                <li>ACSL Senior Division 1st Place</li>
                 <li>FBLA NLC National Winner 5th Place Database Design and Applications 2024</li>
                 <li>USA Fencing All-Academic First Team 2023-24</li>
                 <li>CA FBLA SLC 4th Database Design and Applications 2024</li>
@@ -41,10 +51,14 @@ export default function About(){
             <ul>
                 <li>GFACT Certification from SANS</li>
                 <li>E24 Sabre Rating</li>
+                <li>L1 Rated Sabre Referee</li>
+                <li>P Rated Epee Referee</li>
+                <li>P Rated Foil Referee</li>
             </ul>
             <h1>Current Positions</h1>
             <ul>
                 <li>DBHS FBLA Co-VP of Competitive Events</li>
+                <li>DB Hackathon Club Co-President</li>
                 <li>Vex Cyberbots Robotics Captain</li>
             </ul>
         </div>

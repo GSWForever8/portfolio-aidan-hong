@@ -2,10 +2,42 @@ import {Link} from "react-router-dom";
 import csvimage from "./csvstudyimage.png";
 import memory from"./memory.png";
 import weather from "./weather.png";
+import dbfbla from "./dbfbla.png";
+import lockedin from "./chat.png";
 export default function Projects(){
     return(
     <div class="content">
         <h1 class="center">Projects</h1>
+        <div class="side">
+            <div class="text">
+                <h2>LockedIn</h2>
+                <p>AI Powered tool to empower students</p>
+                <a href="https://github.com/GSWForever8/congressapp24" target="_blank">Link to GitHub Repo</a>
+                <h3>Skills Used</h3>
+                <li>Meta Llama API</li>
+                <li>Flask</li>
+                <li>Skikit Learn</li>
+                <li>Matplotlib</li>
+                <li>MERN Stack</li>
+            </div>
+            <div class="image">
+                <img class="medium" src={lockedin} alt="lockedin"/>
+            </div>
+        </div>
+        <div class="side">
+            <div class="text">
+                <h2>DBHS FBLA Website</h2>
+                <p>The Official Website of DBHS FBLA</p>
+                <a href="https://dbhsfbla.onrender.com" target="_blank">Link to website</a>
+                <h3>Skills Used</h3>
+                <li>Google Oauth</li>
+                <li>Google Drive API</li>
+                <li>MERN Stack</li>
+            </div>
+            <div class="image">
+                <img class="medium" src={dbfbla} alt="dbfbla"/>
+            </div>
+        </div>
         <div class="side">
             <div class="text">
                 <h2>JS Flashcard Game</h2>
