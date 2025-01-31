@@ -6,7 +6,7 @@ export default function About(){
                 <div>
                 <h1>About Me</h1>
                 <p>Name: Aidan Hong</p>
-                <p>Age: 16</p>
+                <p>Age: 17</p>
                 <p>School: Diamond Bar High School C/O 2026</p>
                 <p>Interests: Programming, engineering, fencing</p>
             </div>
@@ -17,7 +17,7 @@ export default function About(){
             <h1>Activities</h1>
             <ul>
                 <li>Fencing</li>
-                <li>USACO</li>
+                <li>USACO Silver</li>
                 <li>ACSL</li>
                 <li>AMC 10+12</li>
                 <li>Cyberpatriot</li>
@@ -50,7 +50,7 @@ export default function About(){
             <h1>Certifications</h1>
             <ul>
                 <li>GFACT Certification from SANS</li>
-                <li>E24 Sabre Rating</li>
+                <li>E25 Sabre Rating</li>
                 <li>L1 Rated Sabre Referee</li>
                 <li>P Rated Epee Referee</li>
                 <li>P Rated Foil Referee</li>
