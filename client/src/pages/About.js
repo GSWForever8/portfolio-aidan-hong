@@ -57,9 +57,13 @@ export default function About(){
             </ul>
             <h1>Current Positions</h1>
             <ul>
-                <li>DBHS FBLA Co-VP of Competitive Events</li>
+                <li>DBHS FBLA VP of Competitive Events</li>
                 <li>DB Hackathon Club Co-President</li>
                 <li>Vex Cyberbots Robotics Captain</li>
+            </ul>
+            <h1>Prior Positions</h1>
+            <ul>
+                <li>STEM Intern at Access Services</li>
             </ul>
         </div>
     );
