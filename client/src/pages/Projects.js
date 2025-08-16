@@ -16,11 +16,9 @@ export default function Projects(){
                 <p>For this website, we used a frontend with smooth transitions to enhance the user experience. We use the OpenAI GPT-5 API to create quiz questions, and we formatted the response to allow for the code to parse it and create questions. We also created a forum to allow for members to communicate, with votes, posts, and comments baked into its core funcitonality.</p>
                 <a href="https://github.com/myName833/DBHS-FBLA-Website" target="_blank">Link to GitHub Repo</a>
                 <h3>Skills Used</h3>
-                <li>Meta Llama API</li>
+                <li>OpenAI API</li>
                 <li>Flask</li>
-                <li>Skikit Learn</li>
-                <li>Matplotlib</li>
-                <li>MERN Stack</li>
+                <li>React</li>
             </div>
             <div className="media-container">
                 <div className="image">
