@@ -19,7 +19,6 @@ export default function About(){
                 <li>Fencing</li>
                 <li>USACO Silver</li>
                 <li>ACSL</li>
-                <li>AMC 10+12</li>
                 <li>Cyberpatriot</li>
                 <li>FBLA</li>
                 <li>Math Madness</li>
