@@ -5,10 +5,29 @@ import weather from "./weather.png";
 import dbfbla from "./dbfbla.png";
 import lockedin from "./chat.png";
 import dbfbla2 from "./dbfbla2.png";
+import edd from "./edd.jpeg";
 export default function Projects(){
     return(
     <div class="content">
         <h1 class="center">Projects</h1>
+        <div class="side">
+            <div class="text">
+                <h2>HalloweenTracker</h2>
+                <p>Addressing safety in communities. Built with ESP32, CAD, and Swift.</p>
+                <p>For this project, we created a CAD for the housing. Then, we used an ESP32 with iBeacon to connect with phones and GATT to advertise specific services the phone may need. Finally, I made a swift app to present information in a user friendly and human centric format.</p>
+                <a href="https://github.com/GSWForever8/HalloweenTracker" target="_blank">Link to GitHub Repo</a>
+                <h3>Skills Used</h3>
+                <li>Swift</li>
+                <li>Soldering</li>
+                <li>C++</li>
+            </div>
+            <div className="media-container">
+                <div className="image">
+                    <img className="medium" src={edd} alt="lockedin" />
+                </div>
+            </div>
+
+        </div>
         <div class="side">
             <div class="text">
                 <h2>DBHS FBLA Website 2.0</h2>
@@ -148,7 +167,7 @@ export default function Projects(){
             </div>
             <div className="media-container">
                 <div className="image">
-                    <img className="medium" src={memory} alt="lockedin" />
+                    <img className="medium" src={weather} alt="lockedin" />
                 </div>
                 <div className="video">
                     <iframe
